@@ -55,7 +55,7 @@ export default function Category() {
                             type='submit'
                             className={styles.buttonAdd}      
                         >
-                            
+                            Cadastrar 
                         </button>
                     </form>
 

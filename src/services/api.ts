@@ -7,8 +7,6 @@ import { sign } from 'crypto';
 export function setupAPIClient(ctx = undefined){
     let cookies = parseCookies(ctx);//pegar o cooker
 
-
-    
     const api = axios.create({
         //configurar a baseURL para fazer requisições
         baseURL: 'http://localhost:3333',
